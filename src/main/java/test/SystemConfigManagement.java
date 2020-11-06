@@ -7,7 +7,7 @@ import java.lang.management.ManagementFactory;
 /**
  * @author Pavlo.Fandych
  */
-public class SystemConfigManagement {
+public final class SystemConfigManagement {
 
     public static void main(String[] args) throws MalformedObjectNameException, NotCompliantMBeanException,
                                                   InstanceAlreadyExistsException, MBeanRegistrationException,
